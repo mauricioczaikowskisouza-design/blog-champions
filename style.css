@@ -1,0 +1,81 @@
+/* Configurações Gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Topo do Site (Header) */
+header {
+    background-color: #001845; /* Azul escuro da Champions */
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Menu de Navegação (Nav) */
+nav {
+    background-color: #001233;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00b4d8; /* Efeito ao passar o mouse */
+}
+
+/* Conteúdo Principal (Main) */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #001845;
+    border-bottom: 2px solid #00b4d8;
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Estilo da Imagem (Missão 4) */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 4px;
+}
+
+/* Rodapé (Footer) */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #001233;
+    color: #ffffff;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
